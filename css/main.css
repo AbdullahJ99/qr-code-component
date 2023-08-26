@@ -6,14 +6,25 @@ body{
     font-family: 'Outfit';
     background-color: hsl(212, 45%, 89%);
     font-size: 1rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .qr-code-container{
     background-color: hsl(0, 0%, 100%);
-    width: 20%;
+    max-width: 330px;
     border-radius: 20px;
     padding: 10px;
     text-align: center;
+    position: fixed;
+    top: 15%;
+}
+
+.attribution{
+    position: fixed;
+    top: 95%;
 }
 
 .qr-code{
