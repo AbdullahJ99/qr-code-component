@@ -1,0 +1,25 @@
+body{
+    font-family: 'Outfit';
+    background-color: hsl(212, 45%, 89%);
+}
+
+.qr-code-container{
+    background-color: hsl(0, 0%, 100%);
+    width: 25%;
+    border-radius: 100px;
+}
+
+.qr-code{
+    border-radius: 100px;
+    width: 90%;
+}
+
+.qr-code-header{
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+.qr-code-desc{
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
